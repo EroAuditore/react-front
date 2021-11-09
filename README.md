@@ -71,7 +71,7 @@ A React front-end consumes API to get Greetings
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:EroAuditore/bookstore-react.git
+   git clone git@github.com:EroAuditore/react-front.git
    ```
 2. Install NPM packages
    ```sh
