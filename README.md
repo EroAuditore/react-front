@@ -4,7 +4,7 @@
   <h3 align="center">React Front</h3>
 
   <p align="center">
-    React fribt with React-Redux
+    React front with React-Redux
     <br />
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
