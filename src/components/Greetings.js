@@ -5,8 +5,9 @@ import { fetchGreeting } from '../redux/reducer';
 const Greetings = () => {
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
-  if (Object.keys(state.greeting.greeting).length === 0)
+  if (Object.keys(state.greeting.greeting).length === 0) {
     return <div>loading...</div>;
+  }
   const { data } = state.greeting.greeting;
 
   const handleClick = () => {
@@ -17,7 +18,9 @@ const Greetings = () => {
     <>
       <div>
         <p>Greating of the day:</p>
-        <button onClick={handleClick}> New message</button>
+        <button onClick={handleClick} type="button">
+          New message
+        </button>
         <p>{data.message}</p>
       </div>
     </>
